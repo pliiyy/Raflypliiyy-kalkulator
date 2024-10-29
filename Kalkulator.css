@@ -1,0 +1,75 @@
+/* Body Styling */
+body {
+    background: #e0e5ec;
+    color: #333;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Kalkulator Container */
+#Kalkulator {
+    padding: 30px;
+    background: #e0e5ec;
+    color: #333;
+    min-width: 200px;
+    border-radius: 20px;
+    box-shadow: 9px 9px 16px #a3b1c6, -9px -9px 16px #ffffff;
+}
+
+/* Title Styling */
+#judul {
+    padding: 15px 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Wrapper Styling */
+.wrapper {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.wrapper div {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+/* Result and Button Styling */
+#hasil, #btn-hitung {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+    padding: 15px;
+    background: #e0e5ec;
+    border-radius: 15px;
+    box-shadow: inset 5px 5px 10px #a3b1c6, inset -5px -5px 10px #ffffff;
+}
+
+/* Button Styling */
+.tombol {
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2em;
+    color: #333;
+    background: #e0e5ec;
+    box-shadow: 7px 7px 15px #a3b1c6, -7px -7px 15px #ffffff;
+    transition: all 0.2s ease;
+    padding: 15px;
+}
+
+/* Special Button Styling */
+.tombol-c { background: #f52222; color: white; } /* Tombol C berwarna merah */
+.tombol-fact { background: #9b59b6; color: white; } /* Tombol ! berwarna ungu */
+.tombol-dot { background: #3a66c4; color: white; } /* Tombol . berwarna biru gelap */
+.tombol-mult { background: #27ae60; color: white; } /* Tombol x berwarna hijau */
+.tombol-add { background: #e67e22; color: white; } /* Tombol + berwarna oranye gelap */

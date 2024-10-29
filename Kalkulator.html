@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator - Rafly Adrian Firmansyah</title>
+    <link rel="stylesheet" href="Kalkulator.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Kalkulator.js"></script>
+</head>
+<body>
+    <div id="Kalkulator">
+      <div id="judul">Kalkulator Rafly Adrian Firmansyah</div>
+      <div class="wrapper" id="operasi-temporer">
+        <div class="tombol tombol-nonaktif" id="input1">...</div>
+        <div class="tombol tombol-nonaktif" id="operasi-selected">...</div>
+        <div class="tombol tombol-nonaktif" id="input2">...</div>
+        <div class="tombol tombol-nonaktif" id="hasil-temporer">=</div>
+      </div> 
+      <div class="wrapper">
+        <div id="hasil" class="tombol tombol-nonaktif tombol-aktif">hasil</div>
+      </div> 
+      <div id="blok-tombol">
+        <div class="wrapper">
+         <div class="tombol tombol-aktif tombol-clear tombol-c" id="btn-clear">C</div>
+         <div class="tombol tombol-aktif toggle-negatif tombol-plus-minus">±</div>
+         <div class="tombol tombol-aktif tombol-faktorial tombol-fact">!</div>
+         <div class="tombol tombol-aktif tombol-operasi tombol-power">^</div>
+        </div>
+        <div class="wrapper">
+         <div class="tombol tombol-aktif tombol-angka">7</div>
+         <div class="tombol tombol-aktif tombol-angka">8</div>
+         <div class="tombol tombol-aktif tombol-angka">9</div>
+         <div class="tombol tombol-aktif tombol-operasi tombol-percent">%</div>
+        </div>
+        <div class="wrapper">
+         <div class="tombol tombol-aktif tombol-angka">4</div>
+         <div class="tombol tombol-aktif tombol-angka">5</div>
+         <div class="tombol tombol-aktif tombol-angka">6</div>
+         <div class="tombol tombol-aktif tombol-operasi tombol-divide">/</div>
+        </div>
+        <div class="wrapper">
+         <div class="tombol tombol-aktif tombol-angka">1</div>
+         <div class="tombol tombol-aktif tombol-angka">2</div>
+         <div class="tombol tombol-aktif tombol-angka">3</div>
+         <div class="tombol tombol-aktif tombol-operasi tombol-mult">x</div>
+        </div>
+        <div class="wrapper">
+         <div class="tombol tombol-aktif tombol-angka">0</div>
+         <div class="tombol tombol-aktif tombol-dot">.</div>
+         <div class="tombol tombol-aktif tombol-operasi tombol-add">+</div>
+         <div class="tombol tombol-aktif tombol-operasi tombol-sub">-</div>
+        </div>
+        <div class="wrapper">
+          <div id="btn-hitung" class="tombol tombol-samadengan">=</div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
